@@ -1,6 +1,6 @@
 package ch02_ex01;
 
-public class ByteEx {			//Byte타입 변수 예제 
+public class ByteEx {			//	Byte타입 변수 범위 예제 
 
 	public static void main(String[] args) {
 				byte var1 = -128;
@@ -8,7 +8,7 @@ public class ByteEx {			//Byte타입 변수 예제
 				byte var3 = 0;
 				byte var4 = 30;
 				byte var5 = 127;
-				//byte var6 = 128;			//컴파일 에러	-	byte타입은 -128~127까지 표현 가능하므로 에러 
+				//	byte var6 = 128;			//	컴파일 에러	-	byte타입은 -128~127까지 표현 가능하므로 에러 
 				
 				System.out.println("var1->"+var1);
 				System.out.println("var2->"+var2);

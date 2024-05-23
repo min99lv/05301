@@ -1,12 +1,12 @@
 package ch02_ex01;
 
-public class LongEx {
+public class LongEx {			//	long 문법
 
 	public static void main(String[] args) {
 		long var1 = 10;
 		long var2 = 20L;
 		
-		//long var3 = 100000000000; 컴파일 에러 int값을 넘는 수는 L을 넣어줘야 한다.
+		//	long var3 = 100000000000; 컴파일 에러 int값을 넘는 수는 L을 넣어줘야 한다.
 		long var4 = 100000000000L;
 		
 		System.out.println("var1->"+var1);

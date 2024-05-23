@@ -1,6 +1,6 @@
 package ch02_ex01;
 
-public class VariableScopeEx {				//local변수(지역변수)범위 예제
+public class VariableScopeEx {				//	local변수(지역변수)범위 예제
 	
 	public static void main(String[] args) {
 		int var1=15;		//	var1 main메소드 블록에서 선언
