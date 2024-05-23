@@ -1,5 +1,5 @@
 package ch02_ex03;
-
+//0523완
 public class Ex01Operator1 {		//	산술 연산자 + 형식문자열 예제
 
 	public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Ex01Operator1 {		//	산술 연산자 + 형식문자열 예제
 											//	%d decimal = 정수
 											//	%c char = 문자
 											//	\n = 줄바꿈
-											// %f = 실수
+											// %f = 실수 = float, double
 											//%s = 문자열
 		result = n1 - n2;
 		System.out.printf("%d %c %d = %d\n", n1, '-', n2, result);

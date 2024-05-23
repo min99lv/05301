@@ -1,5 +1,6 @@
 package ch02_ex02;
 //Study
+//0523완
 public class FinalEx {			//	final변수 = 상수 예제
 	
 	public static void main(String[] args) {

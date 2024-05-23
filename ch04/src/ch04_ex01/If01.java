@@ -1,5 +1,5 @@
 package ch04_ex01;
-
+//0523완
 public class If01 { 			// if조건문 예제 01
 
 	public static void main(String[ ] args) {

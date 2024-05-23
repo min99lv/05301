@@ -1,6 +1,6 @@
 package ch04_ex01;
-
-public class Sw01 {			//	스위치문01 예제
+//0523완
+public class Sw01 {			//	조건문 Switch 01 예제
 
 	public static void main(String[] args) {
 		int num = Integer.parseInt(args [0]);									//	 파라메터 값으로 1을 실행

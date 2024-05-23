@@ -1,5 +1,5 @@
 package ch04_ex02;
-
+//0523완
 public class SwitchCharEx {			// 스위치를 사용한 문자열 확인 조건문 예제
 
 	public static void main(String[] args) {

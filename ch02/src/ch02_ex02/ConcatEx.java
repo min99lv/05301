@@ -1,6 +1,7 @@
 package ch02_ex02;
 //Study
-public class ConcatEx {	// 문자열 연산식의 예제
+//0523
+public class ConcatEx {	// 다항연산자에서 문자열 연산식 순서에 대한 예제
 
 	public static void main(String[] args) {
 		String str1 = "num"+3+4;  						//	num이 문자열이기 때문에 3,4도 문자열로서 더해진다
@@ -14,4 +15,3 @@ public class ConcatEx {	// 문자열 연산식의 예제
 
 //	 String에서 문자열을 더할 때는 처음에 더하는 것이 숫자이면 숫자로 인식하다가 
 //	그 다음에 더해지는 것이 문자면 숫자 + 문자열
-//	

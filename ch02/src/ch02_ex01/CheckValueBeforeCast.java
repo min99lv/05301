@@ -1,5 +1,6 @@
 package ch02_ex01;
 //Study
+//0522완
 public class CheckValueBeforeCast {			//	if를 이용해서 casting전에 값을 확인하는 예제
 	public static void main(String[] args) {
 		int	i	=	128;		//	변수 선언 4byte

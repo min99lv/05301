@@ -1,5 +1,5 @@
 package ch02_ex01;
-
+//0522완
 public class VariableScopeEx {				//	local변수(지역변수)범위 예제
 	
 	public static void main(String[] args) {

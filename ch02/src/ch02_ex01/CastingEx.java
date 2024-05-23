@@ -1,5 +1,5 @@
 package ch02_ex01;
-
+//0522완
 public class CastingEx {			//	강제타입변환(Casting) 예제
 			
 	public static void main(String[] args) {

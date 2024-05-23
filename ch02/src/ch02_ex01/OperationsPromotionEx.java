@@ -1,5 +1,6 @@
 package ch02_ex01;
 //Study
+//0522완
 public class OperationsPromotionEx {		// 정수연산에서 자동타입변환 예제
 
 	public static void main(String[] args) {

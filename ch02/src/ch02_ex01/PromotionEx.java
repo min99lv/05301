@@ -1,5 +1,5 @@
 package ch02_ex01;
-
+//0522완
 public class PromotionEx {		//	promotion(자동타입변환) 예제
 
 	public static void main(String[] args) {

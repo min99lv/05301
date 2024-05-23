@@ -1,5 +1,6 @@
 package ch04_ex02;
-// 교재 예제
+// 교재 예제 
+//0523완
 public class IfDiceEx {			// If를 이용해서 주사위 값을 출력하는 예제
 
 	public static void main(String[] args) {

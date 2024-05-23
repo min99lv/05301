@@ -1,6 +1,7 @@
 package ch04_ex02;
 // 현장과제
 // IfDiceEx을 switch로 컨버젼
+//0523완
 public class SwitchEx01 {
 
 	public static void main(String[] args) {

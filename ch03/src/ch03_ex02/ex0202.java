@@ -1,5 +1,5 @@
 package ch03_ex02;
-
+//0523완
 public class ex0202 {			// 삼항 연산자 연습문제
 
 	public static void main(String[] args) {

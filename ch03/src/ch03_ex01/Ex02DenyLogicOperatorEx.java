@@ -1,5 +1,5 @@
 package ch03_ex01;
-
+//0523완
 public class Ex02DenyLogicOperatorEx {				// 불리안 타입 비교연산자 
 
 	public static void main(String[] args) {

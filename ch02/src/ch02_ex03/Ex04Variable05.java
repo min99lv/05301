@@ -1,8 +1,8 @@
 package ch02_ex03;
+//0523완
+public class Ex04Variable05 {		// 정수형과 실수형의 강제형변환에 관한 예제 
 
-public class Ex04Variable05 {
-
-	public static void main(String[] args) {
+	public static void main(String[] args) {		
 		int n1 = 90;
 		int n2 = 90;
 		int n3 = 91;

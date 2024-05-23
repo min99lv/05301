@@ -1,5 +1,5 @@
 package ch04_ex02;
-
+//0523완
 public class IfNestedEx {				// 중첩 if문 예제
 
 	public static void main(String[] args) {

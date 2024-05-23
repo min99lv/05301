@@ -1,5 +1,5 @@
 package ch02_ex01;
-
+//0522완
 public class ByteEx {			//	Byte타입 변수 범위 예제 
 
 	public static void main(String[] args) {
