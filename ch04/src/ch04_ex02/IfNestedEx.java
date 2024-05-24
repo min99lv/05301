@@ -11,13 +11,13 @@ public class IfNestedEx {				// 중첩 if문 예제
 		if(score>=90) {							//score가 90점 이상이면 밑줄 실행
 			if (score>=95) {						// 그 중에서도 score가 95점 이상이면 A+
 			grade = "A+";
-		}	else {											// score가 90점 이상이지만 95점 미만이면 A
-			grade = "A";
-		}
-		} else {
-			if (score >= 85) {
+			}		else	 		 {											// score가 90점 이상이지만 95점 미만이면 A
+						grade = "A";
+			}
+		} else					 {
+				if (score >= 85) {
 				grade= "B+";
-			} else {
+			}  else 					   {
 				grade = "B";
 			}
 		}

@@ -11,7 +11,7 @@ public class SwitchCharEx {			// 스위치를 사용한 문자열 확인 조건�
 					System.out.println("우수 회원입니다.");
 					break;
 			case 'B':
-			case'b':
+			case 'b':
 					System.out.println("일반 회원입니다.");
 					break;
 			default:

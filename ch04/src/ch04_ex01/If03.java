@@ -13,21 +13,29 @@ public class If03 {
 		//			4) else grade = "F"
 		
 		int score = Integer.parseInt(args[0]);
-		char grade; 
+		String grade;
+		
 		if ( score >= 90) {
-			grade = 'A';
-			System.out.printf("당신 점수는 %d 이고 학점은 %c 입니다",score,grade);
-		}  else if ((80<=  score) && (score< 90)) {
-			grade = 'B';
-			System.out.printf("당신 점수는 %d 이고 학점은 %c 입니다",score,grade);
-		} else if ((70<=  score) && (score< 80)) {
-			grade = 'C';
-			System.out.printf("당신 점수는 %d 이고 학점은 %c 입니다",score,grade);
+			grade = "A";
+		}  else if (score	>=	80 ) {
+			grade = "B";
+		} else if  (score	>=	70 ) {
+			grade =	"C";
 		} else {
-			grade = 'F';
-			System.out.printf("당신 점수는 %d 이고 학점은 %c 입니다",score,grade);
+			grade = "F";
+			}
+		System.out.printf("당신 점수는 %d 이고 학점은 %s 입니다",score,grade);
+
+// 			선생님 코드
+		
+//			if (score>=90) grade= "A";
+//			else if (score >=80) 	grade = "b";
+//			else if (score >=70) 	grade = "C";
+//			else									grade = "권총";
+//			System.out.println("당신 점수는"+score+"이고"+"학점은"+grade+"입니다");
 			
 		}
 	}
 
-}
+
+

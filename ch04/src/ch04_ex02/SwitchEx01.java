@@ -5,7 +5,7 @@ package ch04_ex02;
 public class SwitchEx01 {
 
 	public static void main(String[] args) {
-		int num = (int) (Math.random()*6)+1;
+		int num = (int) (	Math.random()*6	)	+	1;
 		
 		switch (num) {
 				case 1:
