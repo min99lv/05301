@@ -1,5 +1,5 @@
 package ch04_ex01;
-//현장work
+//hw1
 //0524완
 public class If04 {				//	중첩 if문 --> 점수를 입력하면 등급을 알려주는 예제
 

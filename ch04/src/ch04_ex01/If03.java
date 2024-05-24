@@ -1,6 +1,6 @@
 
 package ch04_ex01;
-// 과제2 - 0523 완료
+// hw - 0523 완료
 public class If03 {
 
 	public static void main(String[] args) {

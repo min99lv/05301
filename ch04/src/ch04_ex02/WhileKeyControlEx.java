@@ -39,7 +39,17 @@ public class WhileKeyControlEx {
 //						keyCode->51
 //			          결과  run = false
 //			               Escape
-						
+						switch (keyCode) {
+						case 1:
+							speed=+1;
+							break;
+						case 2:
+							speed=-1;
+							break;
+						case 3:
+							System.out.println(run = false);
+						}
+						System.out.println();
 					}
 					System.out.println("pm the end");
 					

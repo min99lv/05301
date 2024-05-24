@@ -1,5 +1,5 @@
 package ch04_ex02;
-//홈워크
+//hw1
 //0524완
 public class SwitchStringEx {
 
