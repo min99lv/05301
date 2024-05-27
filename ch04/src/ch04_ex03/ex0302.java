@@ -35,8 +35,10 @@ public class ex0302 {
 			case 3: 
 				System.out.println(balance);
 				break;
-			default:
+			case 4:
+				run = false;
 				System.out.println("종료");
+				break;
 			}
 			
 		}

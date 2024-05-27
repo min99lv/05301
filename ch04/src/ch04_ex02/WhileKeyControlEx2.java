@@ -24,15 +24,15 @@ public class WhileKeyControlEx2 {
 						
 						switch (keyCode) {	
 						case 49:
-							speed +=1;
+							speed ++;
 							System.out.println(speed);
 							break;
 						case 50:
-							speed-=1;
+							speed --;
 							System.out.println(speed);
 							break;
 						case 51:
-							System.out.println(run = false);									
+							run = false;									
 							System.out.println("pm the end");
 						}
 					
@@ -40,3 +40,12 @@ public class WhileKeyControlEx2 {
 	
 		}
 }
+	/*
+					if(keyCode == 49) {
+						speed ++;
+					} else if (keyCode == 50) {
+						speed --;
+					} else if (keyCode == 51) {
+						run = false;
+					}
+	*/

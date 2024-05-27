@@ -3,10 +3,10 @@ package ch04_ex01;
 public class If02 { 				//	문자열을 숫자로 파씽하는 방법 예제
 																		//	argments = 인자 : 값을 나중에 대입하는 것 
 		public static void main(String[] args) {	
-				int a = Integer.parseInt(args[0]) ;		//	.parselnt :문자열을 숫자(int)로 바꿔주는 메소드		
+				int a = Integer.parseInt(args[0]) ;		//	.parselnt :문자열을 숫자(int)로 바꿔주는 메소드-> 숫자가 아니라면 오류	
 																						//	배열의 시작은 0 부터
 				int b = Integer.parseInt(args[1]) ;		//	시작이 0이기때문에 다음은 1부터 시작
-				String str = args[2] ;									//  args 스트링 값도 받아들일 수 있다
+				String str = args[2] ;									//  args 스트링 값도 받아들일 수 있다 ->여러개의 파라미터 값을 받아들일 수 있다는 코드
 				
 				System.out.println("a->"+a);				//	[a->35]
 				System.out.println("b->"+b);				//	[b->20]

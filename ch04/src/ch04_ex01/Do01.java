@@ -1,7 +1,7 @@
 package ch04_ex01;
 //0524 완
 public class Do01 {				//	Do while문 예제
-													// do while을 이용해서 1~10까지 합계를 구하는 예제 
+														// do while을 이용해서 1~10까지 합계를 구하는 예제 
 	public static void main(String[] args) {
 					int sum	=	0, i	=	1;														
 					do 

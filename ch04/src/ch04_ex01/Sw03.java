@@ -7,7 +7,7 @@ public class Sw03 {		//swich문 예제 	--> 1~12에 숫자를 입력하면 계�
 		String season	= "";
 		
 		switch (num) {												//	월을 받아서 스위치문에서 받아들인다  
-				case 12:			
+				case 12:													// 스위치문은 반드시 break; 걸어주기
 				case 1:			
 				case 2:			
 								season  = "겨울";			

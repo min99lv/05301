@@ -7,10 +7,13 @@ public class If04 {				//	중첩 if문 --> 점수를 입력하면 등급을 알�
 		int score = Integer.parseInt(args [0]);
 				String grade = " ";
 				
-				if (score	>= 90	) 	{
-							if (score >= 97)	{
+				if (score	>= 90	) 	
+				{
+							if (score >= 97)	
+							{
 										grade	=	"A+";
-							} else if (score < 94)	{				
+							} else if (score < 94)	
+							{				
 										grade	=	"A-";
 							} else 
 										grade	=	"A0";				

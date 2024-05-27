@@ -17,7 +17,7 @@ public class If05 {			//	if04에서 가독성을 높인 예제 --> 점수를 입
 		} else 
 				grade = "F";
 		
-		if (score >= 100) grade += "+";
+		if (score >= 100) grade += "+";		// 로직 정교화
 		else if 	(score >=60) {
 				  if				(score%10>7) grade +=	"+";
 				  else if		(score%10>4) grade +=	"-";

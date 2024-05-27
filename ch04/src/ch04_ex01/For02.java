@@ -1,15 +1,14 @@
 package ch04_ex01;
-
-import java.io.IOException;
-
 //hw05 
 //0524 완
+import java.io.IOException;
+
 public class For02 {
 
 	public static void main(String[] args) throws IOException {
 		System.out.println("보고싶은 구구단 숫자는");
-		//int num = System.in.read()-'0';
-		// for 구구단 완성
+		//	int num = System.in.read()-'0';
+		//	for 구구단 완성
 		
 		int num = System.in.read()-'0'; // 아스키코드로 값을 입력받았을 때 
 																	 // '5'-'0'  => 53-48 = 5로 한자리 숫자를 입력할 수 있지만 

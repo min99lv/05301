@@ -15,7 +15,7 @@ public class If03 {
 		int score = Integer.parseInt(args[0]);
 		String grade;
 		
-		if ( score >= 90) {
+		if ( score >= 90)	{
 			grade = "A";
 		}  else if (score	>=	80 ) {
 			grade = "B";
