@@ -19,6 +19,9 @@ public class ArrayTest5_ex {
 							System.out.print(m[i]+"\t");			// 헤더라인을 뿌려준다
 				}
 				System.out.println("\n----------------------------------------");
+				
+				
+				
 
 	}
 

@@ -1,6 +1,6 @@
 package ch05_ex01;
-
-public class ArrayTest5 {
+//0528
+public class ArrayTest5 {			// 배열을 이용하여 성적표를 출력하는 예제
 
 	public static void main(String[] args) {
 			String[ ] m  		 = {"이름", "국어", "수학","총점","평균"};
