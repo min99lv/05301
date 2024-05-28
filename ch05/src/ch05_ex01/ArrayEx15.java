@@ -1,7 +1,7 @@
 package ch05_ex01;
 // hw01
 // 0527 완
-public class ArrayEx15 {
+public class ArrayEx15 {		// 배열을 사용해서 계산기를 만드는 예제
 
 	public static void main(String[] args) {
 		if (args.length != 3) {
@@ -11,6 +11,7 @@ public class ArrayEx15 {
 		char op = args[1].charAt(0);		//	문자열을 문자(char)로 변환한다.
 		int num1 = Integer.parseInt(args[0]);
 		int num2 = Integer.parseInt(args[2]);
+		int result = 0;
 		// hw01
 		// + - x / 수행 --> switch
 		// *는 .classpath 가르키므로 x로 변경하여 사용하겠음

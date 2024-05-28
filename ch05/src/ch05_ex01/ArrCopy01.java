@@ -6,7 +6,7 @@ public class ArrCopy01 {
 				//	index-->	0, 1, 2, 3, 4, 5, 6
 				int [ ] a = {1, 2, 3, 4, 5, 6,7};
 				int [ ] b = new int [10];
-				
+					// System.out.println 복사하는방법을 몰랐을 때
 //				for (int i = 0; i < a.length; i++) {
 //					b[i] = a [i];
 //				}
