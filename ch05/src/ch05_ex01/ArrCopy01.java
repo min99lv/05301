@@ -1,9 +1,9 @@
 package ch05_ex01;
-
-public class ArrCopy01 {
+//0528
+public class ArrCopy01 {			// 배열의 값을 복사하는 예제
 
 	public static void main(String[] args) {
-				//	index-->	0, 1, 2, 3, 4, 5, 6
+				//	index-->	0, 1, 2, 3, 4, 5, 6 length =6 
 				int [ ] a = {1, 2, 3, 4, 5, 6,7};
 				int [ ] b = new int [10];
 					// System.out.println 복사하는방법을 몰랐을 때
@@ -36,8 +36,8 @@ public class ArrCopy01 {
 				cls(b);
 }
 	private static void cls(int[] b) { // cls 메소드라고 부른다. --> 타입만 맞춰주면 되고 이름은 똑같을 필요없다
-			for (int i = 0; i < b.length; i++) {											// 객체로 넘어가면 주소값이 넘어가기 때문에 이름은 상관없다
-				b[ i ] = 0; 																					//배열값을 전부 0으로 clear해준다
+			for (int i = 0; i < b.length; i++) {											//	객체로 넘어가면 주소값이 넘어가기 때문에 이름은 상관없다
+				b[ i ] = 0; 																				//	배열값을 전부 0으로 clear해준다
 			}
 		
 	}

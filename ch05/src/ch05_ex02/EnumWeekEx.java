@@ -1,6 +1,6 @@
 package ch05_ex02;
 
-import java.util.Calendar;		//캘린더 내장객체
+import java.util.Calendar;		//		캘린더 내장객체
 
 public class EnumWeekEx {		// 열거상수를 이용해서 캘린더를 불러와 오늘의 요일을 알려주는 예제
 

@@ -1,6 +1,6 @@
 package ch06_ex01;
 // 실행하는 클래스만 메인을 찍는다.
-
+// 0528완
 // mainX->설계도 
 public class Car {//객체
 	// Member 변수, 필드 = 성격

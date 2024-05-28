@@ -1,7 +1,7 @@
 package ch06_ex01;
-
+// 0528완
 class Car1 {//객체		// 퍼블릭은 하나만.........................
-	//	Member 변수, 필드 = 성격
+	//	Member 변수, 필드,속성 = 성격
 	String color;
 	//	공유 변수 --> class 변수  : 메모리를 공유하고있다 --> 실행-> 속도가 달라진다 
 	static int speed;

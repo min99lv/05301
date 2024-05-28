@@ -1,12 +1,10 @@
 package ch06_ex01;
 
-import javax.naming.ldap.SortControl;
-
-class Score2 {
-	int kor, eng, math;
+class Score2 {		
+	int kor, eng, math;			// 과목별 인스턴스 변수를 선언해준다.
 
 	Score2(int k, int e, int m) {
-		kor = k;
+		kor = k;		// 인스턴스 변수 = 매개변수
 		eng = e;
 		math = m;
 	}

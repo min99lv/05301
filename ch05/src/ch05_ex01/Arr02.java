@@ -1,5 +1,5 @@
 package ch05_ex01;
-
+// 0528완
 public class Arr02 {				// 배열을 사용하는 예제02
 
 	public static void main(String[] args) {

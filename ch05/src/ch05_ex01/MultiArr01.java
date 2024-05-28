@@ -1,7 +1,7 @@
 package ch05_ex01;
-
+// 0528완
 // debug 대상
-public class MultiArr01 {
+public class MultiArr01 {		// 	이차원배열을 사용하는 예제
 
 	public static void main(String[] args) {
 		int [][] a = new int [2][3];		// 2행 3열

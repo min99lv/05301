@@ -1,5 +1,5 @@
 package ch06_ex09;
-
+// 0528완
 public class PakTest01 {
 		public int a = 7;
 		public int b = 20;
