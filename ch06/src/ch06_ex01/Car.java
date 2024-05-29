@@ -8,7 +8,7 @@ public class Car {//객체
 	int speed;
 	int wheel;		// 바퀴 수 
 	
-	// 행위를 하기위한 요소  = 메소드 (영문자 or $시작) 두번째부터 숫자가능
+	// 멤버변수가 행위를 하기위한 요소  = 메소드 (영문자 or $시작) 두번째부터 숫자가능
 	void speedUp()	{
 			speed++;
 			System.out.println(speed+"속도를 올렷다");

@@ -15,11 +15,11 @@ class AA1	{
 public class NumEx {
 
 	public static void main(String[] args) {
-		AA1 a1 = new AA1();
+		AA1 a1 = new AA1();			// num 1= 1 num2 =1
 		a1.print();									
-		AA1 a2 = new AA1();
+		AA1 a2 = new AA1();			// num1=1 num2=2
 		a2.print();
-		AA1 a3 = new AA1();
+		AA1 a3 = new AA1();			// num1=1 num2=3
 		a3.print();
 			
 

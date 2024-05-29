@@ -1,10 +1,11 @@
 package ch06_ex01;
 // 0528완
 class Car1 {//객체		// 퍼블릭은 하나만.........................
+	//	공유 변수 --> class 변수 (전역변수) : 메모리를 공유하고있다 --> 실행-> 속도가 달라진다 
+	// 메모리가 인스턴스안에 생성되는 것이 아니라서 선언하지 않고 사용가능
+	static int speed;
 	//	Member 변수, 필드,속성 = 성격
 	String color;
-	//	공유 변수 --> class 변수  : 메모리를 공유하고있다 --> 실행-> 속도가 달라진다 
-	static int speed;
 	
 	void print() {
 		System.out.println("색깔"+color);

@@ -1,12 +1,12 @@
 package ch06_ex01;
 
 public class CarEx {
-
+// main을 포함한 클래스 = 실행클래스
 //	객체를 선언할때 컨트롤 스페이스 -> 패키지를 잘 확인한다
 	public static void main(String[] args) {
 			// 		선언 (instance)		생성	
-			Car myCar = new Car();
-			
+			Car myCar = new Car();	// 메모리를 생성 -> 마이카에 주소번지를 넘겨준다
+			// 객체를 선언 해주지 않으면 메소드나 변수를 사용할 수 없다.
 			Car yourCar;						// 객체명 reference 변수명 & 선언방법2
 			yourCar = new Car();		// 생성 -> car 대한 메모리번지 생성
 			
