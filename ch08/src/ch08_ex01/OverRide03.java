@@ -18,6 +18,7 @@ abstract class C1 {
 	abstract void print();
 }
 
+
 class C2 extends C1 {
 
 	@Override
