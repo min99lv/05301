@@ -33,7 +33,7 @@ public class Ex02EncapsuleEx {
 	public static void main(String[] args) {
 		Encapsule h1 = new Encapsule();
 //			h1.name = "김준수";		--> 퍼블릭인 경우에 사용 가능
-//			h1.age = -10;
+//			h1.age = -10;					--> 프라이빗이랑 다른 클래스라서 
 
 		h1.setname("김준수");
 		h1.setAge(-10);
@@ -52,5 +52,9 @@ public class Ex02EncapsuleEx {
 //나이 입력 오류 ㅎㅎ
 //이름 :김준수
 //나이 :0 --> int null값이 = 0 이기때문에 0으로 출력된다
+
+
+
+
 
 

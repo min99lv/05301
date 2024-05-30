@@ -1,4 +1,4 @@
-package ch07_ex01;
+package ex0530;
 //0529 리턴형에 대한 예제
 //0529완
 class C1 {
@@ -29,7 +29,7 @@ public class Ex03Return01 {
 	public static void main(String[] args) {
 		int resultDivide1,resultDivide2,resultDivide3;   // 나눈 결과값  int 여야 리턴값을 반환할 수 있다.
 		C1 c = new C1();	// 인스턴스 
-		c.divide1(13, 3);	// divide1 메소드 호출
+		//resultDivide5= c.divide1(13, 3);	// divide1 메소드 호출
 		resultDivide1 = c.divide2(13, 3);
 		resultDivide2 = c.divide2(23, 3);
 		resultDivide3 = c.divide2(33, 3);

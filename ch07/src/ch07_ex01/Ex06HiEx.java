@@ -24,6 +24,9 @@ public class Ex06HiEx {
 
 }
 
+
+// if (cnt < 1) return;
+
 // 결과
 //안녕, 나야 !!   cnt-->6
 //안녕, 나야 !!   cnt-->5

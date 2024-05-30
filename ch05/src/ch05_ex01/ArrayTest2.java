@@ -1,5 +1,5 @@
 package ch05_ex01;
-//0528완
+//0528완, 0530완
 public class ArrayTest2 {			// 배열을 사용해서 화폐단위로 나누고 나머지를 구하는 예제
 
 	public static void main(String[] args) {

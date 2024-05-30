@@ -1,6 +1,5 @@
 package ch05_ex01;
-
-//0528완
+//0528완,0530완
 public class Arr01 {			 // 배열을 사용하는 예제01
 	public static void main(String[] args) {
 		// int a0, a1, a2, a3, a4, a5......; 배열을 사용하는 이유

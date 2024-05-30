@@ -1,45 +1,36 @@
 package ch07_ex01;
 // hw02
 //0529완
-class OverLoad{
+class OverLoad{				// 메서드 오버로딩에 관한 연습문제
 	int n;
-	OverLoad() {
+	void print() {
 		System.out.println("매개변수없다");
 	}
-	OverLoad(int n) {
+	void print(int n) {
 		this.n = n;
 		System.out.println("매개변수 1개 int = "+n);
 	}
-	OverLoad(String s) {
+	void print(String s) {
 		System.out.println("매개변수 1개 str = "+s);
 	}
-	OverLoad(String s,int n) {
+	void print(String s,int n) {
 		System.out.println("매개변수 2개 str ["+ s+"], int"+n);
 	}
-	void print(){
-		
-	}
+
 }
 public class Ex07OverLoadingEx {
 
 	public static void main(String[] args) {
-			OverLoad Ol = new OverLoad();
-			OverLoad Ol1 = new OverLoad(12);
-			OverLoad Ol2 = new OverLoad("대박");
-			OverLoad Ol3 = new OverLoad("금요일",16);
-		
-//			Ol.print();
-//			Ol.print(12);
-//			Ol.print("대박");
-//			Ol.print("금요일",16);
+		OverLoad Ol = new OverLoad();
+		Ol.print();
+		Ol.print(12);
+		Ol.print("대박");
+		Ol.print("금요일",16);
 			
 
 	}
 
 }
-
-
-
 
 
 //console

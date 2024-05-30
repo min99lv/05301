@@ -1,6 +1,6 @@
 package ch05_ex01;
 // hw01
-// 0527 완
+// 0527완, 0530완
 public class ArrayEx15 {		// 배열을 사용해서 계산기를 만드는 예제
 
 	public static void main(String[] args) {

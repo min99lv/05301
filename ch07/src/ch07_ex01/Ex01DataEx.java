@@ -10,12 +10,14 @@ class Data {
 	int math;
 	
 	// void : 리턴타입을 주지 않겠다는 의미 -> 알아서 하겠다 리턴값을 주지않겠다
+	// call by reference
 	void addRef (Data d1, Data d2)	{		// 메소드 
 		d1.kor = d2.eng;
 		System.out.println("mehod국어점수 :"+d1.kor);
 	}
 	
 	// Return type = int  Return method명 parameter = addKor (int Kor)
+	//  call by value
 	int                              addKor                     (int kor) {
 		kor += 10;
 		System.out.println("Kor=>"+kor);
@@ -36,9 +38,14 @@ public class Ex01DataEx {
 		d1.math 	= 70;
 		d2.eng		= 80;
 		// *** instance를 넘겨주면  메모리 주소번지 = 주소값을 넘겨주는 효과
+		// call by reference
 		d3.addRef(d1, d2);	
 		System.out.println("main 국어 점수:" +  d1.kor);
-
+		
+		// call by value
+		int d3_kor = d3.addKor(10);
+		System.out.println("main 국어 점수:" +  d3_kor); // 리턴값
+		System.out.println("main 국어 점수:" +  d3.kor); // 메소드 호출
 	}
 
 }

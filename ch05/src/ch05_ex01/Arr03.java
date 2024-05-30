@@ -1,6 +1,6 @@
 package ch05_ex01;
 //현장 work
-//0528완
+//0528완, 0530완
 public class Arr03 {		// Arr02에서 배운 향상형 for문을 배열을 사용하여 만드는 예제
 
 	public static void main(String[] args) {

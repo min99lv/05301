@@ -1,10 +1,11 @@
 package ch08_ex01;
 
-//	추상 class
+//	추상 class -> 하나이상의 추상메소드가 있어야한다
 abstract class C1 {
 	int k;
 
-	public C1() {
+// 생성자
+	public C1() { 
 		System.out.println("추상 class 생성자");
 
 	}
@@ -15,17 +16,17 @@ abstract class C1 {
 
 	// 추상 클래스는 하나이상의 추상 메소드가 존재 해야함
 	// 추상 메소드 : 메소드 정의만 있는 것.
-	abstract void print();
+	abstract void print(); 
 }
 
+// 상속 클래스 
+class C2 extends C1 { 
 
-class C2 extends C1 {
-
+ // 추상 클래스 상속 -> 반드시 구현해야한다
 	@Override
 	void print() {
 		System.out.println("C2 k->" + k);
-
-	} // 추상 클래스 상속 -> 반드시 구현해야한다
+	}
 	void print3 () {
 		System.out.println("C2 print3");
 	}

@@ -9,8 +9,8 @@ class G2 {
 	}
 
 	G2(int k) {
-		this(); // 나의... 라는 의미 기본생성자 -> 를 가르킴 -> 다음에 내 생성자를 뿌려줌
-		this.k = k;
+		this(); // 나의...() 라는 의미 기본생성자 를 가르킴 -> 다음에 내 생성자를 뿌려줌
+		this.k = k; // 나의 매개변수를 가르킴
 		System.out.println("매개변수 1개 k = " + k);
 
 	}
@@ -27,13 +27,13 @@ class G2 {
 
 }
 
-public class ThisEx02 {
+public class Ex09ThisEx02 {
 
 	public static void main(String[] args) {
 		G2 g2 = new G2(7);					// 두번째 생성자 
-	//	g2.print();										// [매개변수 1개 k=7]
-	//	G2 g3 = new G2(7, 13);			// 세번째 생성자
-	//	g3.print();										// [매개변수 2개 k = 7 y = 13]
+		g2.print();										// [매개변수 1개 k=7]
+		G2 g3 = new G2(7, 13);			// 세번째 생성자
+		g3.print();										// [매개변수 2개 k = 7 y = 13]
 		
 	}
 

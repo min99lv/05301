@@ -1,7 +1,5 @@
 package ch08_ex01;
 
-import java.awt.print.Printable;
-
 class B1{
 	void print1() {
 		System.out.println("바꾸기 가능");
@@ -10,7 +8,8 @@ class B1{
 		System.out.println("변경금지");
 	}
 }
-//final은 상속금지
+
+//	final은 오버라이드금지
 class B2 extends B1{
 	void print1() {
 		System.out.println("난 자식 메소드");
