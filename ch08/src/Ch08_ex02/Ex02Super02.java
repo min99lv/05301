@@ -2,6 +2,8 @@ package Ch08_ex02;
 // 0530완
 class C1 {
 	// 생성자가 없으면 Default를 Compiler가 만들어 준다.
+	
+	// 생성자 오버로딩
 	C1() {
 		System.out.println("매개변수 없는 부모 생성자");
 	}
@@ -52,5 +54,5 @@ public class Ex02Super02 {
 
 
 
-// 아무것도 없을때 아버지의 기본생성자 호출 -> 내 생성자
+// 아무것도 없을때 아버지의 기본생성자 호출 -> 다음 내 생성자
 

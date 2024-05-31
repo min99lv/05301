@@ -1,7 +1,7 @@
 package ch07_ex03;
 
 public class Computer {
-
+	// index  0 1 2
 	int sum1(int[] values) {
 		int sum = 0;
 		// 3
@@ -12,6 +12,7 @@ public class Computer {
 		return sum;
 	}
 
+					       // ... 가변배열
 	int sum2(int... values) {
 		int sum = 0;
 		System.out.println("values->" + values); // 넘어온 values값을 출력

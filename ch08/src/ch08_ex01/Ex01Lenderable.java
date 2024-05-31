@@ -26,8 +26,8 @@ class SeperateVolume implements Ex01Lenderable {  // -> 구현
 	
 	// 책 대여 메소드  상태 =  nomal
 	public void checkOut(String borrower, String date) {
-//		NORMAL++; -> 인터페이스의 변수는 모두 상수다.
-		if (status != NORMAL)
+//		NORMAL++; -> 불가능 인터페이스의 변수는 모두 상수다.
+		if (status != NORMAL)	// 커뮤니케이션 
 			return; // 메소드가 호출된곳으로 돌아가라
 		this.date = date;
 		this.borrower = borrower;

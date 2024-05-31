@@ -13,7 +13,9 @@ public class Ex06ShapeEx {
 		for (Ex06Shape s : sh) {
 			s.print();
 			s.draw();
+			// 객체가 rectagle 일때만 객체 사용
 			if (s instanceof Rectangle) {
+				// 형변환
 				((Rectangle) s).display();
 			}
 		}

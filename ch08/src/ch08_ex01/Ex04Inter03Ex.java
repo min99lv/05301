@@ -33,7 +33,7 @@ class F4 implements F3 {
 		
 	}
 }
-
+// class가 interface를 상속 받을때 -> 다중상속 가능 
 class F5 implements F1, F2 {
 
 		@Override
